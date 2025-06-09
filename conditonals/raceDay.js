@@ -1,5 +1,6 @@
 //input position
 let pos = 5;
+//switch with cases that get medals and default for no medals earned
 switch(pos){
     case 1:
         console.log('You get the gold medal, amazing!');
