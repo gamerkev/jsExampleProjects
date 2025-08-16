@@ -10,7 +10,7 @@ let shoppingList = [arr, ["chicken breast", "minced meat"]];
 
 function countItems(nestedArr){
     let count = 0;
-    for(i = 0; i<nestedArr.length; i=i+1){
+    for(let i = 0; i<nestedArr.length; i++){
         count += nestedArr[i].length;
     }
     return count;
