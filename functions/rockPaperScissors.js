@@ -33,9 +33,7 @@ function computerWins(user, computer){
 function playGame(user, computer){
     /* if statements for possible games, user===computer separately is an alternative to checking for this
     in each following if statement */
-    if (user === computer){
-        return `Draw, both thew ${user.toLowerCase()}.`
-    }
+    if (user === computer) return `Draw, both thew ${user.toLowerCase()}.`
     else if (user === 'Rock'){
         if (computer === 'Paper') return computerWins(user, computer);
         else return userWins(user, computer);
